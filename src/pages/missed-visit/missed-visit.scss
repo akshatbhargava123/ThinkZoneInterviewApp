@@ -1,0 +1,15 @@
+page-missed-visit {
+
+    ion-col {
+        border: 0.2px solid map-get($colors, 'dark-green');
+    }
+
+    .header {
+        background: map-get($colors, 'dark-green');
+    }
+
+    .missed-visit {
+        background: map-get($colors, 'light-red');
+    }
+
+}

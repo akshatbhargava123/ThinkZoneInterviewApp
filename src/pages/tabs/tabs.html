@@ -1,0 +1,3 @@
+<ion-tabs tabsHighlight="true" tabsLayout="icon-start" color="light-green">
+  <ion-tab *ngFor="let tab of Tabs" [root]="tab.root" tabTitle="{{ tab.title }}" tabIcon="{{ tab.icon }}"></ion-tab>
+</ion-tabs>

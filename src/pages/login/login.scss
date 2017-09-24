@@ -1,0 +1,49 @@
+page-login {
+
+    ion-content {
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+
+    .item {
+        padding:0px !important;
+        font-size: 14px;
+        margin-top: 10px;
+        background: none;
+        border-bottom: 1px solid white !important;
+        box-shadow: none;
+    }
+
+    .login-button {
+        margin-top: 15px;
+        height: 35px;
+        font-size: 14px;
+        background: #10ABF4;
+    }
+
+    .forgot-pass {
+        text-decoration: underline;
+        margin-top: 20px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .signup-button {
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        border: 1px solid white;
+        margin-top: 20px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: white !important; 
+    }
+
+    :-moz-placeholder {
+        color: white !important; 
+    }
+
+}

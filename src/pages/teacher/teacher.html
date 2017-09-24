@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="dark-green">
+    <ion-title>Teacher</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row class="header">
+      <ion-col col-12><strong>List of Teachers</strong></ion-col>
+    </ion-row>
+    
+    <ion-row *ngFor="let teacher of teachersList">
+      <ion-col col-4>{{ teacher.name }}</ion-col>
+      <ion-col col-4>{{ teacher.date }}</ion-col>
+      <ion-col col-4>{{ teacher.contactNumber }}</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

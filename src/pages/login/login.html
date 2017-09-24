@@ -1,0 +1,24 @@
+<ion-content padding class="login" style="background-image: url('assets/images/background.jpg');">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4></ion-col>
+      <ion-col col-4 style="margin-left: auto; margin-right: auto; display: block;">
+        <img src="assets/images/logo.png">
+      </ion-col>
+      <ion-col col-4></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list style="margin-top:30px; margin-bottom: 30px">
+    <ion-item class="item">
+      <ion-input type="text" [(ngModel)]="email" placeholder="Username"></ion-input>
+    </ion-item>
+    <ion-item class="item">
+      <ion-input type="password" [(ngModel)]="password" placeholder="Password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button class="login-button" ion-button block (click)="login()">Login</button>
+  <div text-center class="forgot-pass" (click)="forgotPassword()">Forgot Password</div>
+  <button ion-button class="signup-button" block (click)="register()">Register</button>
+</ion-content>

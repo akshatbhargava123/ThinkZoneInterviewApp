@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="dark-green">
+    <ion-title>Missed Visit</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row class="header">
+      <ion-col col-4><strong>ID</strong></ion-col>
+      <ion-col col-4><strong>DATE</strong></ion-col>
+      <ion-col col-4><strong>CALL</strong></ion-col>
+    </ion-row>
+    
+    <ion-row *ngFor="let teacher of teachersList">
+      <ion-col col-4>{{ teacher.name }}</ion-col>
+      <ion-col [ngClass]="{'missed-visit': teacher.missedVisit}" col-4>{{ teacher.date }}</ion-col>
+      <ion-col col-4>{{ teacher.contactNumber }}</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
