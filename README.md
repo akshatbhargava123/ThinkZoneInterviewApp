@@ -2,7 +2,8 @@ The app is made on ionic 3 framework fulfilling the requirements of an interview
 
 ## Pre-requisites
 
-    You must have android studio or xcode installed in your machine in order to build the app for android or iOS respectively.
+  * You must have android studio or xcode installed in your machine in order to build the app for android or iOS respectively.
+  * You must have latest version of ionic CLI installed globally in your system
 
 ## How to run the app
 
